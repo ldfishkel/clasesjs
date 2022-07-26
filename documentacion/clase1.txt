@@ -1,0 +1,33 @@
+JAVA ES UN LENGUAJE DE PROGRAMACION CUYO PARADIGMA ES ORIENTADO A OBJETOS (POO)
+
+JAVASCRIPT EN CAMBIO ES MULTI-PARADIGMA PUEDE USAR 
+- POO O TAMBIEN 
+- PARADIGMA FUNCIONAL O 
+- ORIENTADO A EVENTOS
+- ESTRUCTURADO
+
+EN JAVASCRIPT EXSISTEN ALGUNOS OBJETOS EN EL MOTOR
+- CONSOLE
+- DOCUMENT
+- ETC
+
+Formas de crear variables
+- let
+- var
+- const
+
+existen los tipos de datos
+
+- string "hola como estas" (un texto)
+- number 3243  4.5 -56
+- array (lista) 
+-- [1, 6, 4, 8]
+-- ["leo", "vane", "alicia"]
+
+- objeto
+-- var persona = {
+  nombre: "leo",
+  edad: 29
+}
+
+- funcion
