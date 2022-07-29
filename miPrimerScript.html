@@ -20,20 +20,18 @@
 
 
 
-    <ul id="miListaa">
-  
-    </ul>
+    <ul id="miLista"></ul>
 
 
     <script>
 
         var miBoton = document.getElementById("boton"); //sentencia 
-        
         let miLista = document.getElementById("miLista");
 
         miLista.onclick = (event) => {
             // completar para que el LI (target) desaparezca
-            console.log(event.target.innerText);
+            event.target.remove(); // el elemento html que vive dentro del atributo "target" del objeto "event" conoce el "metodo o funcion" llamado "remove"
+            // mas informacion sobre el metodo remove de los elementos html: https://www.w3schools.com/jsref/met_element_remove.asp
         }
 
         miBoton.onclick = () => {
