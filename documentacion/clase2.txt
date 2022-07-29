@@ -1,0 +1,51 @@
+//estuvimos viendo un poquito de ARRAY
+
+//ejemplo de declaracion de variable de tipo ARRAY
+
+var miLista = []; //esto es una lista vacia
+
+var otraLista = [ 1, 3, 65, 6 ]; //lista inicializada con datos numericos
+
+// ALGUNAS FUNCIONES QUE PARA OPERAR CON LAS LISTAS
+
+// 1) includes
+// es una funcion que devuelve true o false dependiendo si el PARAMETRO esta incluido en la lista
+// ejemplo
+
+var jugadoresDeFutbol = [ "juan", "pedro", "roberto" ];
+
+jugadoresDeFutbol.includes("juan");
+
+// ejemplo de un caso de error
+var nuevaVariable = 3;
+nuevaVariable.includes("juan"); // ME TIRA ERROR. PORQUE ES UN NUMEROOOOOOO, NO ES UN ARRAY
+
+// TAMBIEN "includes" funciona para los string
+var miString = "hola esto es un string";
+miString.includes("hola");  // Esto devuelve TRUE - lo que recibe por parametro el includes para string es un substring
+
+// 2) FILTER
+
+// ejemplo
+
+var jugadoresDeFutbol = [ "juan", "pedro", "roberto" ];
+jugadoresDeFutbol.filter((jugador) => jugador.includes("o"))
+
+ // CODIGO DECLARATIVO
+
+ /*
+    cuando tu codigo es un choclo, lo que se recomienda es empezar a reemplaza muchas lineas de codigo por funciones que 
+    tengan un nombre significativo -> esto significa que su nombre explique que es lo que hace
+    esto sirve para que cuando alguien tenga que trabajar con tu codigo, pueda entender facilmente que es lo que hace
+ */
+
+// ==  (igual)
+// > (mayor)
+// < (menor)
+// != (distinto)
+// >= (mayor o igual)
+// <= (menor o igual)
+
+// && (operador logico Y o AND)
+// || (operador logico O o OR)
+
