@@ -2,12 +2,17 @@
 <html>
     <head>
         <script defer src="miPrimerScript.js"></script>
+        <style>
+            .oculto {
+                display: none;
+            }
+        </style>
     </head>
     <body>
-        <input id="miInput" class="texto" type="text" placeholder="Agregar un Item">
 
+        <input id="miInput" class="texto" type="text" placeholder="Agregar un Item">
         <button id="boton">Mi boton</button>
-        <button id="botonEspecial">Boton especial</button>
-        <ul id="miLista"></ul>
+        <h1 id="mensajeError" >No hay items</h1>
+        <ul id="miLista" class="oculto"></ul>
     </body>
 </html>
