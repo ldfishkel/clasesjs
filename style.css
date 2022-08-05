@@ -1,0 +1,63 @@
+.tablagen {
+    display: table;
+    border-spacing: 2px;
+}
+
+.row {
+    display: table-row;
+}
+
+.col {
+    display: table-cell;
+    padding: 12px;
+    background: #ddd;
+    margin: 1px;
+}
+
+#display {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.displaybox {
+    width: 250px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.cuerpo {
+    display: flex;
+    width: 250px;
+}
+
+#numeros {
+    width: 60%;
+}
+
+#operadores {
+    float: right;
+}
+
+button {
+    width: 25px;
+    height: 25px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="displaybox">
+        <input type="text" id="display">
+        <button id="botonIgual">=</button>
+    </div>
+    <div class="cuerpo">
+        <div id="numeros" style="background-color: black;">
+            <div class="tablagen">
+                <div class="row">
+                    <div class="col"><button>1</button></div>
+                    <div class="col"><button>2</button></div>
+                    <div class="col"><button>3</button></div>
+                </div>
+                <div class="row">
+                    <div class="col"><button>4</button></div>
+                    <div class="col"><button>5</button></div>
+                    <div class="col"><button>6</button></div>
+                </div>
+                <div class="row">
+                    <div class="col"><button>7</button></div>
+                    <div class="col"><button>8</button></div>
+                    <div class="col"><button>9</button></div>
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col"><button>0</button></div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="operadores" style="background-color: red;">
+            <div class="tablagen">
+                <div class="row">
+                    <div class="col"><button>+</button></div>
+                </div>
+                <div class="row">
+                    <div class="col"><button>-</button></div>
+                </div>
+                <div class="row">
+                    <div class="col"><button>x</button></div>
+                </div>
+                <div class="row">
+                    <div class="col"><button>/</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./modulos/manejoDeClick/clickBotonIgual.js"></script>
+    <script src="./modulos/manejoDeClick/clickDeOperadores.js"></script>
+    <script src="./modulos/manejoDeClick/clickDeNumeros.js"></script>
+    <script src="calculadora.js"></script>
+
+</body>
+
+</html>
